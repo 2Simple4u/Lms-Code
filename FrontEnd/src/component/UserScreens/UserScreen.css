@@ -1,0 +1,81 @@
+
+.Banner_text{
+    color: white;
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    position: absolute;
+    margin: auto;
+    
+    /* -webkit-filter: blur(opx) saturate(2); */
+}
+.part1_text{
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+padding-left: 25%;
+}
+.part1_text > h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.part1_text > h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+.part1_text > p{
+font-size: 30px;
+}
+.part1_footer_text{
+    display: flex;
+    gap: 100px;
+    color: white;
+    background-color: black;
+}
+.right_footer{
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.left_footer_img{
+    padding-top: 10px;
+    padding-bottom: 5px;
+  
+}
+.left_footer_img > img{
+    box-shadow: 0px 0px 8px 2px;
+    border-radius: 4px;
+}
+.right_footer > h2{
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.left_footer_text{
+    width: 30%;
+    padding-top: 100px;
+    /* padding-right: 150px; */
+}
+.right_footer_img{
+    padding: 10px 0 5px 250px;
+ 
+
+}
+.right_footer_img > img{
+    box-shadow: 0px 0px 8px 2px;
+    border-radius: 4px;
+   
+}
+.left_footer_text > h2{
+    padding-bottom: 10px;
+}
+.part2_footer_text{
+    display: flex;
+    color: white;
+    background-color: black;
+    gap: 100px;
+    display: flex;
+}

@@ -1,0 +1,51 @@
+/* .batches_data{
+    margin: 10px 20px;
+    background: lavender;
+    border-radius: 10px;
+} */
+/* .batches_data > h2{
+    padding: 10px;
+    font-size: 1.8rem;
+    border-bottom: 1px solid;
+}
+.batches_data > p{
+    font-size: 1.3rem;
+    padding: 5px 15px;
+} */
+.parent_timesheetTable{
+    margin-top: 20px;
+    padding: 5px;
+
+}
+.timesheet_data_table{
+    width: 80vw;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+.timesheet_data_table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+    padding: 12px;
+}
+.timesheet_data_table thead td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+.timesheet_data_table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.timesheet_data_table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+tr{
+    text-align: center;
+    font-size: 20px;
+}

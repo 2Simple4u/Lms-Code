@@ -1,0 +1,13 @@
+.reportview{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.reportview:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.main_Batch{
+    background:black;
+    height: 85vh;
+    width: 77vw;
+    overflow: auto;
+    margin: auto;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.batch_topbar{
+    display: flex;
+    justify-content: space-between;
+    background: #dc143c;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    height: 60px;
+    padding-left: 30px;
+}
+.batch_topbar > h2{
+    font-size: 2.2rem;
+}
+.batch_topbar > button{
+    border: none;
+    text-decoration: none;
+    background: #1d459f;
+    font-size: 1.625rem;
+    height: 61px;
+    width: 100px;
+    margin: auto;
+    margin-right: 0;
+    margin-top: -1px;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.no-data{
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    margin-top: 190px;
+    color: white;
+    box-shadow: 0px 0px 2px 2px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+}

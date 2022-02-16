@@ -1,0 +1,73 @@
+.parent_signup{
+    background-color: #181818;
+    height: 89.3vh;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.signupchild-1{
+    flex-direction: row;
+    display: flex;
+    box-shadow: 0px 0px 16px 5px white;
+    width: 65vw;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.signupchild1_left{
+    background-color: mediumturquoise;
+    color: white;
+    height: 76vh;
+    width: 100vw;
+    
+}
+.signupchild1_right{
+    height: 73vh;
+    background-color: black;
+    padding-top: 23px;
+    color: white;
+    border-left: 2px solid white;
+}
+.signupchild-col-flex-1{
+    display: flex;
+    padding: 8px;
+    padding-top: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: ui-monospace;
+    width: 85%;
+}
+.signupchild-col-flex-1 > input{
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+/* .rightparent{
+    padding-top: 20px;
+} */
+.rightparent{
+    width: 100%;
+}
+.signupchild1_left_text{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 145px;
+}
+.buttons{
+    margin-left: 25px;
+}
+.footertext1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.signInScreen_log{
+    color: crimson;
+}
+.signInScreen_log:hover{
+    color: rgb(43, 43, 192);
+}

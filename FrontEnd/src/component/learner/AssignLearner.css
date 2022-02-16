@@ -1,0 +1,19 @@
+ button{
+    border: none;
+    border-radius: 4px;
+    gap: 10px;
+    padding:7px 10px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    background: crimson;
+    color: white;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        color: black;
+        background: crimson;
+        transition-delay: .2s all;
+    }

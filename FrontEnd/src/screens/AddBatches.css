@@ -1,0 +1,122 @@
+.addBatches_data{
+    display: flex;
+    flex-direction: row;
+}
+
+.addbatches_topBar{
+    background: #dc143c;
+    padding: 12px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.col-1{
+    display: flex;
+    /* gap: 50px; */
+}
+.star{
+    color: crimson;
+}
+.col-date{
+    gap: 50px;
+}
+
+.child-col-flex-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.child-col-flex-1>label{
+    font-size: 20px;
+    font-family: monospace;
+}
+.col-flex-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 10px;   
+}
+.col-flex-1 input,
+.col-flex-1 textarea{
+    border: 2px solid black;
+    padding: 10px;
+    background: transparent;
+    border-width: 0px 0px 3px 0px;
+    outline: none;
+    border-radius: 0;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0;
+    width: 98%;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+.addBatches_data{
+    display: flex;
+    width: 90%;
+    padding: 30px;
+    background-color: #d1daeb;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    grid-gap: 20px;
+    gap: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    padding-bottom: 40px;
+}
+.buttons > button{
+border: none;
+border-radius: 4px;
+gap: 10px;
+padding:7px 10px;
+margin-right: 20px;
+font-weight: 600;
+font-size: 1.25rem;
+}
+
+.buttons > button:hover{
+    cursor: pointer;
+    color: white;
+    background: crimson;
+    transition-delay: .2s all;
+}
+
+
+.parent_addBatches{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 210px;
+}
+
+.col-flex-1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#description{
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-family: monospace;
+    padding: 5px 10px;
+}
+
+.child-date{
+    color: white;
+    background: crimson;
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px;
+}

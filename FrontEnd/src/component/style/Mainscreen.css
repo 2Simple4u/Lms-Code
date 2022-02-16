@@ -1,0 +1,37 @@
+.parent-panel{
+    display: flex;
+    width: 100vw;
+margin: auto;
+}
+.left-panel{
+    width: 100%;
+}
+.right-panel{
+    width: 99.4vw;
+}
+.right_panel_text{
+    margin: 200px 0px 0 50px;
+    font-weight: 600;
+    font-family: monospace;
+    /* background: #181818;
+    border-radius: 8px; */
+}
+.right_panel_text > h1{
+    /* color: #fff; */
+    margin: 0;
+    font-size: 55px;
+    font-weight: normal;
+    animation-name: animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    line-height: 100px;
+    font-weight: 700;
+}
+
+.right_panel_text > p{
+
+    /* color: #fff; */
+    margin: 0;
+    font-size: 45px;
+    font-weight: normal;
+}

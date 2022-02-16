@@ -1,0 +1,18 @@
+#sticky-footer{
+    color: white;
+    width: 100vw;
+    /* margin-bottom: 0px; */
+    margin-top: 260px;
+    background: black;
+    /* height: 100px; */
+    padding: 10px 0px 10px 5px;
+    }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 900px;
+}
+.float-right{
+    gap: 50px;
+}

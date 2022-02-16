@@ -1,0 +1,124 @@
+.parentReport_View{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px 0px 9px 4px grey;
+    /* padding: 15px; */
+    margin: 11px;
+    margin-top: 46px;
+}
+.LeftReport_view{
+    margin-top: 0px;
+    width: 35%;
+    background-image: url(../img/img2.jpg);
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.leftImg{
+    /* height: 70vh;
+    width: 22%; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: fill;
+}
+.profileImage_Circle{
+    height: 80px;
+    background: blue;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -36px;
+    position: relative;
+}
+
+.RightReport_view{
+    height: 70vh;
+    width: 100vw;
+    background: black;
+    border-radius: 4px;
+    border-left-style: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.pofile_Text{
+    margin: auto;
+    margin-top: 17px;
+    text-align: center;
+    position: relative;
+}
+.rightview_report_text{
+    margin-top: 3px;
+    background: black;
+    position: absolute;
+    margin-left: 49px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 4px white;
+}
+.rightview_report_text > h2{
+    color: #e50914;
+}
+.report_description{
+    background: rgb(61, 57, 55);
+    display: flex;
+    gap: 40%;
+    height: 35vh;
+    padding-top: 50px;
+    padding-left: 15px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 3px white;
+}
+
+.report_description_top{
+    padding-bottom: 100px;
+}
+
+.timesheet_parent{
+    background: rgb(61, 57, 55);
+    height: 145px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 4px white;
+}
+.timesheet_description_top{
+    display: flex;
+    gap: 40%;
+    padding-top: 50px;
+}
+.timesheet_description{
+    margin: 20px;
+    margin-top: 35px;
+}
+.rightview_timeshhet_text{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 25px;
+    background: black;
+    padding: 5px;
+    border: 1px solid;
+    box-shadow: 0px 0px 8px 4px white;
+    border-radius: 4px;
+}
+.rightview_timeshhet_text > h2{
+    color: #e50914;
+}
+
+.lefttimesheet_description_top > label{
+    color:  #e50914;
+}
+p{
+    color:  #e50914;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.profile_name{
+   
+    padding-bottom: 5px;
+}
